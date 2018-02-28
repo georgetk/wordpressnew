@@ -186,3 +186,7 @@ superUser:
   # optional  fields
   # email: getstarteduser@hasura.io
   # mobile: 987654321
+
+uiKit:
+  theme: "light"
+  redirectUrl: 
