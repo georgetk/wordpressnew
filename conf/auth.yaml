@@ -187,6 +187,4 @@ superUser:
   # email: getstarteduser@hasura.io
   # mobile: 987654321
 
-uiKit:
-  theme: "light"
-  redirectUrl: "https://auth.deluge21.hasura-app.io/v1/user/info"
+
