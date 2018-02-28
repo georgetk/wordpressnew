@@ -214,3 +214,15 @@ www:
     upstreamServicePath: /
     upstreamServicePort: 80
 
+admin:
+  /:
+    upstreamService:
+      name: admin
+      namespace: {{ deluge21.metadata.namespaces.user }}
+    upstreamServicePath: /
+    upstreamServicePort: 80
+    authorizationPolicy:
+      restrictToRoles: ["admin"]
+      noSessionRedirectUrl: https://auth.deluge21.hasura-app.io/ui/
+      noAccessRedirectUrl: https://auth.deluge21.hasura-app.io/ui/restricted
+
