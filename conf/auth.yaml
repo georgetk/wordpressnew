@@ -189,4 +189,4 @@ superUser:
 
 uiKit:
   theme: "light"
-  redirectUrl: 
+  redirectUrl: "https://auth.deluge21.hasura-app.io/v1/user/info"
